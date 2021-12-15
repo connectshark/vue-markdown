@@ -34,7 +34,6 @@ const update = (e) => {
   font-size: 14px;
   font-family: "Monaco", courier, monospace;
   padding: 20px;
-  height: 100%;
 }
 #editor div{
   padding: 0 20px;
@@ -48,5 +47,7 @@ code {
   width: 49%;
   vertical-align: top;
   box-sizing: border-box;
+  height: 100%;
+  overflow-y: auto;
 }
 </style>
