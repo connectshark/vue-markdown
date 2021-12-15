@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { marked } from 'marked'
 
-const input = ref('# hello')
+const input = ref('# Hello')
 
 const compiledMarkdown = computed(() => {
   return marked(input.value, { sanitize: true })
